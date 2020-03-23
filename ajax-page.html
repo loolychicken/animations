@@ -22,8 +22,9 @@
 </body>
 <script>
 $(document).ready(function() {
-    $("button").on('click', function() {
-        $("#box").load("sticky.html");
+    $(".ajax_link").on('click', function() {
+        $("#box").load("full-reveal.html");
+        $(".ajax_link").hide();
     });
 });
 </script>
